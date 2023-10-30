@@ -1,0 +1,22 @@
+// This file was generated for Start Bootstrap Material Admin Pro
+// https://startbootstrap.com/theme/material-admin-pro
+// Place this file in src/scss/_variables-colors-overrides.scss
+
+$primary: #8b354a;
+$secondary: #e6c273;
+$success: #2e7d32;
+$info: #ff8a65;
+$warning: #ffb300;
+$danger: #d32f2f;
+// for the margin variable to customize the margin
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 5,
+);
+
+$negative-spacers: if($enable-negative-margins, negativify-map($spacers), null);

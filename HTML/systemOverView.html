@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OverView</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/sideBare.css"/>
+    <link rel="stylesheet" href="../CSS/buttonStyle.css">
+    <!-- <link rel="stylesheet" href="../CSS/variables-colors-overrides.scss"> -->
+  </head>
+  <body>
+    <header>
+      <!-- place navbar here -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbarone">
+        <div class="container-fluid text-white">
+          <button
+            class="btn btn-navar"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#offcanvasNavbarLeft"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="offcanvasNavbarLabelName"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">MATERIAL ADMIN PRO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <div class="row gx-3">
+              <div class="d-flex col">
+                <h5><a class="nav-link" href="#">Overview</a></h5>
+              </div>
+              <div class="col d-flex">
+                <h5><a class="nav-link" href="#">Documentation</a></h5>
+              </div>
+              <div class="col d-flex">
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="white"
+                    class="bi bi-envelope"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="col d-flex">
+                <a class="nav-link" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-person-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="col d-flex">
+                <a class="nav-link" href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="26"
+                    fill="currentColor"
+                    class="bi bi-bell-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--for the nav bar-->
+      <div
+        class="offcanvas offcanvas-start mt-5 mb-5"
+        data-bs-scroll="true"
+        data-bs-backdrop="false"
+        tabindex="-1"
+        id="offcanvasNavbarLeft"
+        aria-labelledby="offcanvasNavbarLabelName"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabelName">
+            Interface
+          </h5>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+                  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+                </svg> OverView</a
+              >
+            </li>
+            <!--the aaccodion-->
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    Dashboards
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body d-grid gap-2">
+                    <!-- this is the data in this -->
+                    <button href="#" class="nav-link text-decoration-none">Default</button>
+                    <button href="#" class="nav-link text-decoration-none">Minimal</button>
+                    <button href="#" class="nav-link text-decoration-none">Analytics</button>
+                    <button href="#" class="nav-link text-decoration-none">Accounting</button>
+                    <button href="#" class="nav-link text-decoration-none">Orders</button>
+                    <button href="#" class="nav-link text-decoration-none">Projects</button>
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    Layouts
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body d-grid gap-2">
+                    <!-- this is the data in this -->
+                    <button href="#" class="nav-link text-decoration-none">Dark Theme </button>
+                    <button href="#" class="nav-link text-decoration-none">Light Theme </button>
+                    <button href="#" class="nav-link text-decoration-none">Static Navigation</button>
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Page
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body d-grid gap-2 mb-5">
+                    <!-- this is the data in this -->
+                    <button href="#" class="nav-link text-decoration-none">Account</button>
+                    <button href="#" class="nav-link text-decoration-none">Authentication</button>
+                    <button href="#" class="nav-link text-decoration-none">Blank Page</button>
+                    <button href="#" class="nav-link text-decoration-none">Error</button>
+                    <button href="#" class="nav-link text-decoration-none">Invoice</button>
+                    <button href="#" class="nav-link text-decoration-none">Knowledge base </button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="mt-5">
+      <div class=" row mt-5 pt-5 bg-dark text-white justify-content-center d-flex">
+        <div class="col-6">
+          <div class=" text-center mb-5"><svg xmlns="http://www.w3.org/2000/svg" width="86" height="86" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+            <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+            <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+          </svg></div>
+          <h1 class=" justify-content-center  mb-5">Build beautiful products, fast.</h1>
+          <p class="col-9 text-center mb-5">Build high-quality digital experiences with the world's most intuitive union between Bootstrap 5 and Material Design.</p>
+      </div>
+    </div>
+      <div class="col-sm-11 mb-4 mt-5 justify-content-center d-flex">
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasNavbar"
+          id="rightsiderbars"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-gear-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
+            />
+          </svg>
+        </button>
+      </div>
+      <!-- this is the right side offcanvas -->
+      <div
+        class="offcanvas offcanvas-end"
+        data-bs-scroll="true"
+        tabindex="-1"
+        id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            THEME CUSTOMIZER*
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+
+        <div class="offcanvas-body d-grid gap-2">
+          <h6 class="offcanvas-title">Change the theme type!</h6>
+          <a href="#" class="btn btn-light active" role="button">primary</a>
+          <a href="#" class="btn btn-dark active" role="button">primary</a>
+          <a href="#" class="btn btn-primary active" role="button">primary</a>
+
+          <h6 class="offcanvas-title">Or choose your own colors...</h6>
+          
+            <ul class="navbar-nav d-grid gap-2">
+              <li class="nav-item">
+                <a href="#" class="btn btn-primary d-grid gap-2">primary</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-secondary d-grid gap-2 text-center">secondary</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-success d-grid gap-2 text-center">success</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-info d-grid gap-2 text-center">info</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-danger d-grid gap-2 text-center">danger</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-warning d-grid gap-2 text-center">warning</a>
+              </li>
+            </ul>
+         
+          <hr>
+          <div class="m-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Excepturi similique
+               praesentium quos molestias inventore sint vel explicabo cumque veritatis illum.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quo ipsum iste, harum 
+              possimus maxime quisquam repellat voluptatem cum mollitia veniam neque unde maiores vel 
+              magni a perspiciatis porro optio corporis totam. Aut vel voluptas atque officiis quo 
+              molestiae ex inventore dolore fugiat ullam, iste dolor ducimus voluptatem, dignissimos reiciendis voluptatibus ipsum excepturi sit reprehenderit provident doloremque sunt labore aspernatur veniam. Beatae, in tempore omnis veritatis quae assumenda fugiat quo libero. Distinctio, eligendi dolorum odit, dicta sunt dolor itaque beatae nulla officia possimus totam? Ipsum reprehenderit maxime aperiam quia sed ex tenetur itaque nobis ad asperiores, sint corporis! Incidunt sunt ratione, cupiditate assumenda quam fugiat laborum deleniti iure hic non, nesciunt, sint aut cum? Distinctio minus atque sint dolores, cumque nesciunt adipisci temporibus maiores a eius voluptas voluptatum, amet sequi sit. Nihil corporis repellat cupiditate hic error accusamus cum fugiat nulla, nam tempore incidunt cumque debitis, porro quidem deserunt sit quaerat ratione facilis quasi. Quod libero error iure ex eos maiores, totam debitis nostrum id vel similique omnis placeat ab voluptatibus quam dignissimos nisi dolores nihil vero rerum perspiciatis saepe natus beatae. Cumque ut iusto sit nihil sequi dicta saepe in delectus.
+               Porro, ratione enim incidunt quod tempore praesentium vitae!</p>
+
+          </div>
+        </div>
+      </div>
+      <!--buldings-->
+      <div class="row justify-content-center align-items-center g-5 mx-4 mb-5">
+        <div class="col-4">
+          <div class="card " style="width: 100%; height: 100%;">
+            <div class="card-body">
+              <p class="card-title">CURRENT MONTHLY BILL</p>
+              <h4 class="card-text">$20.00</h4>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="text-decoration-none" >switch to monthly income -> </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card " style="width: 100%; height: 100%;">
+            <div class="card-body">
+              <p class="card-title">NEXT PAYMENT </p>
+              <h4 class="card-text">July 20</h4>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="text-decoration-none " >view payment history -> </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-white "style="background-color:#6b09eb; width: 100% height: 100%;">
+            <div class="card-body " >
+              <p class="card-title">CURRENT PLAN </p>
+              <h4 class="card-text">Freelancer</h4>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="text-decoration-none text-white" > Up grade plan  -> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- this is for payment methods by using card layout -->
+      
+      <div class="row justify-content-center align-items-center g-5 mx-4 mb-5">
+        <h5>PAYMENT METHODS</h5>
+        <div class="col-6">
+          <div class="card border-primary">
+            <img class="card-img-top" src="../Asset File/msc.PNG" alt="Title" />
+            <div class="card-body">
+              <a href="#" class="card-links text-decoration-none mb-5">Edit</a>
+              <a href="#" class="card-links text-decoration-none mb-5"
+                >Remove</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card border-primary">
+            <img class="card-img-top" src="../Asset File/vsa.PNG" alt="Title" />
+            <div class="card-body">
+              <a href="#" class="card-links text-decoration-none mb-5">Edit</a>
+              <a href="#" class="card-links text-decoration-none mb-5"
+                >Remove</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card border-primary">
+            <img class="card-img-top" src="../Asset File/america.PNG" alt="Title" />
+            <div class="card-body">
+              <a href="#" class="card-links text-decoration-none mb-5">Edit</a>
+              <a href="#" class="card-links text-decoration-none mb-5"
+                >Remove</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card border-primary">
+            <div class="card-body">
+             <a href="" class="text-decoration-none container"><h4 class="card-title"> + ADD NEW PAYMENT SYSTEM </h4></a> 
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- this is for tabular data displaying -->
+      <div class="row justify-content-center align-items-center g-5 mx-4 mb-5">
+      <div class="table-responsive">
+       <h5> <caption class="justify-content-center">
+          PAYMENT HISTORY
+        </caption></h5>
+        <table class="table table-striped table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th>Transaction ID</th>
+              <th>Date</th>
+              <th>Amount</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <td scope="row">#07343</td>
+              <td>1/1/2023</td>
+              <td>100</td>
+              <td>paid</td>
+            </tr>
+            <tr>
+              <td scope="row">#07343</td>
+              <td>1/1/2023</td>
+              <td>100</td>
+              <td>paid</td>
+            </tr>
+            <tr>
+              <td scope="row">#07343</td>
+              <td>1/1/2023</td>
+              <td>100</td>
+              <td>paid</td>
+            </tr>
+            <tr>
+              <td scope="row">#07343</td>
+              <td>1/1/2023</td>
+              <td>100</td>
+              <td>paid</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </div>
+    </div>
+    </main>
+    <hr/>
+    <footer class="p-4">
+      <!-- place footer here -->
+      <div
+        class="d-flex flex-column flex-sm-row align-items-center justify-content-between small"
+      >
+        <div class="me-sm-3 mb-2 mb-sm-0">
+          <div class="fw-500 text-dark">Copyright © Your Website 2023</div>
+        </div>
+        <div class="ms-sm-3">
+          <a class="fw-500 text-decoration-none text-dark" href="#">Privacy</a>
+          <a class="fw-500 text-decoration-none mx-4 text-dark" href="#"
+            >Terms</a
+          >
+          <a class="fw-500 text-decoration-none text-dark" href="#">Helps</a>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

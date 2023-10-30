@@ -1,0 +1,18 @@
+#rightsiderbars{
+    position: absolute;
+    top: 4.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -3rem;
+    width: 3rem;
+    height: 3rem;
+    border-top-left-radius: .35rem;
+    border-bottom-left-radius: .35rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 0;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(34 39 46 / 15%);
+    color: #001500;
+    background-color: rgb(32, 55, 45);
+}

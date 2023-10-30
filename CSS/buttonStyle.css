@@ -1,0 +1,10 @@
+.but{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    width: 20rem;
+    height: 100vh;
+    text-align: left;
+    background: #fff;
+    transition: right .5s;
+}

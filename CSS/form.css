@@ -1,0 +1,6 @@
+.form-floating{
+    border: 2px solid;
+    border-color: blue;
+    border-radius: 50px;
+    background-color: aqua;
+}
